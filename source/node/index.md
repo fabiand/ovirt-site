@@ -24,7 +24,7 @@ the administration was performed by a specialiced administration TUI.
 1. Download the oVirt Node installation iso from one of our release streams([see below](#releases))
 2. Install oVirt Node on your bare-metal host
 3. Navigate to Cockpit on https://yourhost.example.com:9090/ to configure your host (i.e. configure networking)
-4. Navigate to Engine and add the host **OR** run `hosted-engine-setup`
+4. Navigate to Engine and add the host **OR** run `hosted-engine --deploy`
 
 > If you encounter problems, please file them in [bugzilla](https://bugzilla.redhat.com/enter_bug.cgi?product=ovirt-node&component=General).
 
